@@ -12,3 +12,4 @@ svglib==1.4.1
 urllib3==1.26.6
 ez_setup==0.9
 webdriver-manager==3.7.0
+img2pdf==0.4.4
