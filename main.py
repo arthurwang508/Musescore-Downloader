@@ -32,7 +32,7 @@ enter_url = st.text_input("Enter the URL of the Musecore to download:")
 op = webdriver.ChromeOptions()
 op.add_argument('headless')
 op.add_argument('--no-sandbox')     
-op.add_argument('--disable-dev-shm-usage')
+#op.add_argument('--disable-dev-shm-usage')
 run_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options = op)
 
 def fetch_score(url, driver = run_driver):
