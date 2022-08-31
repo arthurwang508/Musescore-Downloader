@@ -28,7 +28,7 @@ st.write("If there are bugs, please report them here: https://forms.gle/xkeV6UZH
 enter_url = st.text_input("Enter the URL of the Musecore to download:")
 
 
-chromedriver_autoinstaller.install()
+#chromedriver_autoinstaller.install()
 op = webdriver.ChromeOptions()
 op.add_argument('headless')
 op.add_argument('--no-sandbox')     
