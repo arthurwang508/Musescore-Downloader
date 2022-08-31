@@ -28,12 +28,13 @@ st.write("If there are bugs, please report them here: https://forms.gle/xkeV6UZH
 enter_url = st.text_input("Enter the URL of the Musecore to download:")
 
 
-#chromedriver_autoinstaller.install()
+chromedriver_autoinstaller.install()
 op = webdriver.ChromeOptions()
 op.add_argument('headless')
 op.add_argument('--no-sandbox')     
 op.add_argument('--disable-dev-shm-usage')
-run_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options = op)
+#run_driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options = op)
+run_driver = webdriver.Chrome(options = op)
 
 def fetch_score(url, driver = run_driver):
     status_placeholder = st.empty()
