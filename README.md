@@ -1,8 +1,8 @@
 # Musescore-Downloader
 
 
-### Website Link: [Click Here](https://arthurwang508-musescore-downloader-main-48ehbe.streamlitapp.com/)
-### Please report bugs here: [Click Here](https://forms.gle/xkeV6UZHV7qSbMkT9)
+#### Website Link: [Click Here](https://arthurwang508-musescore-downloader-main-48ehbe.streamlitapp.com/)
+#### Please report bugs here: [Click Here](https://forms.gle/xkeV6UZHV7qSbMkT9)
 
 ## Step 1: Open the musescore page you want to download
 ### Reminder: This downloader do not support "Official score" on musescore
