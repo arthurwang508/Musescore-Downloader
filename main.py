@@ -24,6 +24,7 @@ from selenium.webdriver.chrome.service import Service
 ssl._create_default_https_context = ssl._create_unverified_context
 
 st.title("Musecore Downloader")
+st.markdown("##### Github link: [Here](https://github.com/arthurwang508/Musescore-Downloader)")
 st.write("If there are bugs, please report them here: https://forms.gle/xkeV6UZHV7qSbMkT9")
 enter_url = st.text_input("Enter the URL of the Musecore to download:")
 
