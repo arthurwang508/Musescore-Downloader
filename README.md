@@ -5,7 +5,8 @@
 #### Please report bugs here: [Click Here](https://forms.gle/xkeV6UZHV7qSbMkT9)
 
 ## Step 1: Open the musescore page you want to download
-### Reminder: This downloader do not support "Official score" on musescore
+#### Reminder 1: This downloader do not support "Official score" on musescore
+#### Reminder 2: Please use it in chrome or safari browser instead of facebook and instagram window
 
 <img src="https://i.imgur.com/7RnemD0.png">
 
