@@ -74,9 +74,9 @@ def fetch_score(url, driver = run_driver):
     actions.perform()
 
     actions_per_page = 19
-    score_name = str(driver.find_element(By.CLASS_NAME, "GqiX6").get_attribute("alt"))
+    score_name = str(driver.find_element(By.CLASS_NAME, "KfFlO").get_attribute("alt"))
     #First class: "Hn_kk"
-    #Second class: "GqiX6"
+    #Second class: "KfFlO"
     regex = re.compile('([0-9]+)\sof\s([0-9]+)')
     match_string = regex.search(score_name).group()
     match_list = match_string.split(" ")
