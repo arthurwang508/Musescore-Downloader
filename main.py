@@ -62,9 +62,11 @@ def fetch_score(url, driver = run_driver):
     except:
         pass
     time.sleep(5)
-    score = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CLASS_NAME,'XGU1Y')))
+    score = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CLASS_NAME,'DyVse')))
     #score = driver.find_element(By.XPATH, "//*[@id=\"jmuse-scroller-component\"]/div[1]/div[1]")
     #score = driver.find_element(By.CLASS_NAME,'XGU1Y')
+    #First class:  "XGU1Y"
+    #Second class: "DyVse"
 
     actions.move_to_element(score)
     actions.click()
@@ -72,7 +74,9 @@ def fetch_score(url, driver = run_driver):
     actions.perform()
 
     actions_per_page = 19
-    score_name = str(driver.find_element(By.CLASS_NAME, "Hn_kk").get_attribute("alt"))
+    score_name = str(driver.find_element(By.CLASS_NAME, "KfFlO").get_attribute("alt"))
+    #First class: "Hn_kk"
+    #Second class: "KfFlO"
     regex = re.compile('([0-9]+)\sof\s([0-9]+)')
     match_string = regex.search(score_name).group()
     match_list = match_string.split(" ")
