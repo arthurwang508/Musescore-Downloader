@@ -62,11 +62,13 @@ def fetch_score(url, driver = run_driver):
     except:
         pass
     time.sleep(5)
-    score = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CLASS_NAME,'YKX96')))
+    score = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.CLASS_NAME,'GqiX6')))
     #score = driver.find_element(By.XPATH, "//*[@id=\"jmuse-scroller-component\"]/div[1]/div[1]")
     #score = driver.find_element(By.CLASS_NAME,'XGU1Y')
     #First class:  "XGU1Y"
     #Second class: "DyVse"
+    #Third class: "YKX96"
+    #Fourth class: "GqiX6"
 
     actions.move_to_element(score)
     actions.click()
