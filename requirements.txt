@@ -1,5 +1,5 @@
 setuptools==63.4.3
-chromedriver-autoinstaller==0.4.0
+chromedriver-autoinstaller==0.6.2
 PyPDF2==2.10.0
 reportlab==3.6.11
 requests==2.25.1
